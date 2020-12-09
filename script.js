@@ -17,7 +17,6 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
 ).concat(
     arrayFromLowToHigh(123, 126)
 )
-
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
